@@ -1,0 +1,324 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav button{
+    background: transparent;
+    border: inset;
+    border-color: transparent;
+    font-size: 1.3em;
+}
+
+nav div button:hover{
+    box-shadow: 0.5em 0.5em 0.5em -0.4em;
+    transform: translateY(-0.07em);
+    transition: 0.07s;
+}
+
+nav img{
+    width: 20%;
+}
+
+body{
+    margin: 0;
+    color: #5a5a5a;
+    background-color: #fff;
+    font-family: 'Raleway',sans-serif;
+}
+
+video{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#intro{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    line-height: 1.72;
+}
+
+#introBtn{
+    color: #007bff;
+    background-color: transparent;
+    border: transparent;
+}
+
+#introBtn:hover{
+    text-decoration: underline;
+}
+
+#popular{
+    text-align: center;
+}
+
+#popular p{
+    font-size: 1.2em;
+}
+
+
+#popular h2{
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    color: #2c4058;
+}
+
+#parallax{
+    background-image: url(Logos/tajMahal.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#tajMahal p{
+    margin-left: 2%;
+    padding: 2%;
+    color: #fff;
+    background-color: black;
+    opacity: 60%;
+    width: 30%;
+    text-align: left;
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    color: #fff;
+    border: transparent;
+    background: transparent;
+}
+
+.buttons a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bottom button{
+    color: #fff;
+    border: transparent;
+    background: transparent;
+}
+
+.bottom button:hover{
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.places{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.places img{
+    border-radius: 20px;
+    width: 60%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#parallax p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.4em;
+}
+
+.places h4{
+    margin: auto;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.para{
+    color: #d2d2d2;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.4em;
+}
+
+#place1, #place2, #place3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    justify-content: space-evenly;
+    box-shadow: #5a5a5a;
+    border-radius: 25px;
+    color: black;
+}
+
+#place1{
+    padding: 0 1.5%;
+}
+
+.places p{
+    margin: 0;
+    background-color: transparent;
+    opacity: 60%;
+    padding-bottom: 3%;
+}
+
+.bottom{
+    text-align: center;
+}
+
+#must{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+
+#trips h3{
+    font-size: 1.8em;
+    color: #5a5a5a;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#trips p{
+    margin-top: 0.6%;
+    text-align: center;
+}
+
+#parallax button{
+    font-size: 14px;
+    padding: 0.8% 1.4%;
+    border-radius: 1em;
+    border-color: transparent;
+    background-color: #007bff;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    box-shadow: 0 5px 10px 0rgba(157,166,179,0.5);
+}
+
+#parallax button a{
+    text-decoration: none;
+    color: white;
+}
+
+#parallax button:hover{
+    background-color: #025dbf;
+    cursor: pointer;
+}
+
+#viewAll {
+    padding: 0.8% 2%;
+    margin: 1% 0;    
+}
+
+#parallax h3{
+    font-family: 'Montserrat',sans-serif;
+    color: #d2d2d2;
+    letter-spacing: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 2.5em;
+}
+
+#secondLast{
+    padding-left: 2%;
+}
+
+
+#tripType{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3.5%;
+    margin-top: 1%;
+}
+
+#tripType button{
+    font-size: 14px;
+    padding: 0.8% 1.4%;
+    border-radius: 1em;
+    border-color: transparent;
+    background-color: #007bff;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+}
+
+#tripType button:hover{
+    background-color: #025dbf;
+    cursor: pointer;
+}
+
+#webLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#webLinks img:nth-of-type(1){
+    flex-basis: 0.5;
+}
+
+#webLinks img:nth-of-type(3){
+    flex-basis: 0.5;
+}
+
+#buttons1 button, #buttons2 button, #buttons3 button{
+    text-align: left;
+}
+
+#buttons1 button{
+    padding-left: 0;
+}
+
+#stateLinks h5{
+    font-weight: 400;
+    font-size: 1.3em;
+    border-bottom: 2px solid white;
+}
+
+footer{
+    padding: 2% 10%;
+    color: #fff;
+    background-color: #17406c;
+}
+
+#stateLinks{
+    display: flex;
+}
+
+#buttons2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-self: flex-end;
+    padding-bottom: 1em;
+}
+
+#buttons3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-self: flex-end;
+    padding-bottom: 1em;
+}
+
+#outro{
+    text-align: justify;
+    line-height: 1.72;
+    padding-bottom: 1em;
+    border-bottom: 0.01rem solid #fff;
+}
